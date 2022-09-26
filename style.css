@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  padding: 10%;
+  font-family: sans-serif;
+}
+.input {
+  width: 100%;
+  margin: 40px 0 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid lightgrey;
+}
+.btn {
+  width: 120px;
+  background-color: lightslategray;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
